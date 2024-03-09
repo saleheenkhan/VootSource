@@ -92,11 +92,11 @@
                         {{/if}}
                         {{#if @site.members_enabled}}
                             {{#unless @member}}
-                                <button class="gh-button" data-portal="signup">Subscribe</button>
+                                <button class="gh-button" data-portal="signup">সাবস্কাইব</button>
                             {{else}}
                                 {{#if @site.paid_members_enabled}}
                                     {{#unless @member.paid}}
-                                        <button class="gh-button" data-portal="upgrade">Upgrade</button>
+                                        <button class="gh-button" data-portal="upgrade">আপগ্রেড</button>
                                     {{/unless}}
                                 {{/if}}
                             {{/unless}}
